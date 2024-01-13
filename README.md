@@ -1,1 +1,2 @@
-# Challenge-LandingPage
+Link do site disponibilizado: https://65a317d07f41e713b62d31e6--regal-muffin-b4cd4a.netlify.app
+link da planilha de registro de informacoes: https://docs.google.com/spreadsheets/d/1bGqaTRQ8rK9gS47MQV2xKvQfg90fmcMQoNL8bz8p2jw/edit#gid=0
