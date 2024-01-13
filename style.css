@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+
+#header{
+    width: 100%;
+    height: 475px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-title{
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+    margin-top: 206px;
+    margin-left: 100px;
+}
+
+#header-text{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#major-infos{
+    height: 229px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.major-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.major-text{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#info-container{
+    height: 800px;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+#text-container{
+    width: 735px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+}
+
+#info-title{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+
+#info-text{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+img{
+    height: 605px;
+    border-radius: 30px;
+}
+
+#form-container{
+    height: 628px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#form-title{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    align-items: center;
+}
+
+input{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 508px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    font-family: "raleway";
+}
+
+input::placeholder{
+    color: black;
+    text-align: center;
+    opacity: 30%;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "raleway";
+    background-color: #C07212;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
